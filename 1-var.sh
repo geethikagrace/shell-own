@@ -1,7 +1,7 @@
 echo "helloo world"
 
-person1=blessy
-person2=sony
+person1=$1
+person2=$2
 
 echo "${person1}-hi ${person2}
  ${person2} -hi ${person1},how r
