@@ -32,10 +32,10 @@ echo "${person1}-hi ${person2}
 ###**SOL: PROMPTING TO THE USER
 
 echo -n "enter username:"
-read USERNAME
+read -s USERNAME
 
 echo -n "enter password:"
-read PASSWORD
+read  -s PASSWORD
 
 echo "username:${USERNAME}"
 echo "password:${PASSWORD}"
