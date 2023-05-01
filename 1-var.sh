@@ -33,3 +33,11 @@ echo "${person1}-hi ${person2}
 
 echo -n "enter username:"
 read USERNAME
+
+echo -n "enter password:"
+read PASSWORD
+
+echo "username:${USERNAME}"
+echo "password:${PASSWORD}"
+
+
